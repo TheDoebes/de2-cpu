@@ -1,18 +1,6 @@
 # de2-cpu
 Term Project for ECE 287, written in VHDL for DE2-115 FPGAs
 
-#################
-Table of Contents
-#################
-.. contents::
-  :local:
-  :depth: 3
-
-============
-Motivation
-============
-
-Project for ECE 287
 
 # Description: 
 
