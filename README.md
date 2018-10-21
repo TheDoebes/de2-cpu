@@ -1,6 +1,19 @@
 # de2-cpu
 Term Project for ECE 287, written in VHDL for DE2-115 FPGAs
 
+#################
+Table of Contents
+#################
+.. contents::
+  :local:
+  :depth: 3
+
+============
+Motivation
+============
+
+Project for ECE 287
+
 # Description: 
 
 The main goal is to design and implement a working 8 bit Processor, modeled after early single-chip processors such as the Intel 8086. The most significant challenge we foresee in this project is probably understanding and layout of our design. As such, it makes any sort of useful roadmap past the research stage difficult. 
