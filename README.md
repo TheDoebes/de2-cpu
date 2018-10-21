@@ -2,10 +2,11 @@
 Term Project for ECE 287, written in VHDL for DE2-115 FPGAs
 
 # Description: 
-	The main goal is to design and implement a working 8 bit Processor, modeled after early single-chip processors such as the Intel 8086. The most significant challenge we foresee in this project is probably understanding and layout of our design. As such, it makes any sort of useful roadmap past the research stage difficult. 
-	Secondly, it should have a software calculator for demonstration purposes.
 
-#Roadmap:
+The main goal is to design and implement a working 8 bit Processor, modeled after early single-chip processors such as the Intel 8086. The most significant challenge we foresee in this project is probably understanding and layout of our design. As such, it makes any sort of useful roadmap past the research stage difficult. 
+Secondly, it should have a software calculator for demonstration purposes.
+
+# Roadmap:
 	Oct. 23: Main research phase complete
 	Oct. 24: Decision on following items:
 Input, such as keyboards
