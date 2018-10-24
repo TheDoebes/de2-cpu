@@ -1,0 +1,85 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(block
+	(rect 344 168 552 304)
+	(text "CPU" (rect 5 5 30 24)(font "Intel Clear" (font_size 8)))	(text "inst" (rect 5 116 21 133)(font "Intel Clear" ))	(mapper
+		(pt 88 0)
+		(bidir)
+		)
+	(mapper
+		(pt 208 24)
+		(bidir)
+		)
+	(mapper
+		(pt 96 136)
+		(bidir)
+		)
+)
+(block
+	(rect 616 96 784 272)
+	(text "Keyboard" (rect 5 5 62 24)(font "Intel Clear" (font_size 8)))	(text "inst1" (rect 5 156 27 173)(font "Intel Clear" ))	(mapper
+		(pt 0 96)
+		(bidir)
+		)
+)
+(block
+	(rect 344 336 552 424)
+	(text "RAM" (rect 5 5 32 24)(font "Intel Clear" (font_size 8)))	(text "inst2" (rect 5 68 27 85)(font "Intel Clear" )))
+(block
+	(rect 128 72 264 288)
+	(text "VGA Monitor" (rect 5 5 79 24)(font "Intel Clear" (font_size 8)))	(text "inst3" (rect 5 196 27 213)(font "Intel Clear" ))	(mapper
+		(pt 136 16)
+		(bidir)
+		)
+)
+(block
+	(rect 328 32 552 128)
+	(text "VGA Controller" (rect 5 5 92 24)(font "Intel Clear" (font_size 8)))	(text "inst4" (rect 5 76 27 93)(font "Intel Clear" ))	(mapper
+		(pt 104 96)
+		(bidir)
+		)
+	(mapper
+		(pt 0 56)
+		(bidir)
+		)
+)
+(connector
+	(pt 432 128)
+	(pt 432 168)
+	(conduit)
+)
+(connector
+	(pt 264 88)
+	(pt 328 88)
+	(conduit)
+)
+(connector
+	(pt 440 304)
+	(pt 440 344)
+	(conduit)
+)
+(connector
+	(pt 552 192)
+	(pt 616 192)
+	(conduit)
+)
